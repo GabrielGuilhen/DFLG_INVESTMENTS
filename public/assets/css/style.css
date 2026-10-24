@@ -1,0 +1,48 @@
+/* Layout padrão (dashboard, transações, metas, parcelamentos) */
+body {
+    background-color: #f4f5f9;
+}
+
+
+.navbar-dflg {
+    background-color: #000000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.stat-card {
+    border: none;
+    border-radius: 1rem;
+}
+
+/* Páginas de autenticação (login, cadastro) */
+.auth-body {
+    background: #000000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.auth-card .card-title {
+    font-weight: 700;
+    color: #333;
+}
+
+.btn-auth {
+    background: #000000;
+    border: none;
+    font-weight: 600;
+    padding: 0.8rem;
+}
+
+.btn-auth:hover {
+    opacity: 0.9;
+}
